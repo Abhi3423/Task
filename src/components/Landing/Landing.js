@@ -53,7 +53,7 @@ function Landing() {
         <span id="content-head">Begin your bussiness </span>
         <span id="content">Welcome to Redsoft, Order from your favorite stores</span>
         <div id="search">
-          <BsSearch size={'2em'} transform="left-4" />
+          <BsSearch size={'2em'} />
           <p id="search_con1">Search...</p>
         </div>
         <div>
