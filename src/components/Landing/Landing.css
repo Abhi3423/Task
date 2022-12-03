@@ -1,0 +1,311 @@
+#logo-head {
+    position: absolute;
+    width: 3%;
+    left: 9%;
+    top: 2vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 110%;
+
+
+    color: #000000;
+}
+
+#button {
+    margin-top: -7%;
+    margin-left: 83%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 12vw;
+    height: 2.5vw;
+    border-radius: 3vw;
+    background-color: #FFC529;
+
+}
+
+#carouselExampleSlidesOnly {
+    margin-top: 3%;
+    margin-left: 60%;
+    width: 35vw;
+    height: 20vw;
+}
+
+#content-head {
+    position: absolute;
+    width: 30vw;
+    left: 13%;
+    top: 25%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+
+    color: #000000;
+}
+
+#content {
+    position: absolute;
+    width: 40vw;
+    height: 2vw;
+    left: 13%;
+    top: 33%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2vw;
+    line-height: 110%;
+
+    color: #000000;
+}
+
+#search {
+
+    margin-top: -4%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 8%;
+    border-radius: 1vw;
+    margin-left: 13%;
+    height: 3.4vw;
+    width: 40vw;
+
+}
+
+
+#search_con1 {
+    position: absolute;
+    width: 128px;
+    height: 18px;
+    left: 17%;
+    margin-top: -2%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+
+    color: #000000;
+}
+
+#p1_con {
+
+    position: absolute;
+    width: 15vw;
+    height: 110px;
+    left: 13%;
+    margin-top: -16%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#p2_con {
+    position: absolute;
+    width: 15vw;
+    height: 110px;
+    left: 42.18%;
+    margin-top: -15%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#p3_con {
+    position: absolute;
+    width: 251px;
+    height: 110px;
+    left: 72%;
+    margin-top: -13%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+#grad1.active div:not(#mySidenav, #info) {
+    filter: blur(2px);
+}
+
+#mySidenav.active {
+
+    visibility: visible;
+    opacity: 1;
+
+}
+
+#start.topnav {
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+
+
+}
+
+.sidenav {
+    height: 100vh;
+    width: 80%;
+    margin-left: 80%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    overflow-x: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 1px 0px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.7vw;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    /* color: #f1f1f1; */
+    font-weight: 600;
+    background: rgba(217, 217, 217, 0.274);
+    border-radius: 10px;
+    transition: 0.1s;
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -1vh;
+    left: -2%;
+    font-size: 3.2vw;
+
+}
+
+.sidenav a.closebtn:hover {
+    background: rgba(217, 217, 217, 0.274);
+    height: 80px;
+    width: 80px;
+    right: 25px;
+    margin-left: 17%;
+    border-radius: 40px;
+    transition: 0.0005s;
+
+
+}
+
+
+#name {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.2vw;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    display: block;
+    opacity: 1;
+}
+
+#info {
+    margin-top: 15%;
+}
+
+#nam_info{
+    position: absolute;
+    margin-left:7%;
+    margin-top: 5%;
+
+    font-size: 1.2vw;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+#mail_info {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 15%;
+
+    font-size: 1.2vw;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    color: #9F7272;;
+}
+
+
+#list {
+    position: absolute;
+    margin-top: 86%;
+    width:18vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(29, 26, 26, 0.58) 0%, rgba(0, 0, 0, 0.4408) 100%);
+    color: #FFFFFF;
+}
+
+#box input {
+    /* width: 18vw; */
+    padding: 0 5px;
+    /* height: 40px; */
+    font-size: 1vw;
+    margin-top: 20%;
+    left: 0;
+    border: none;
+    background: rgba(29, 26, 26, 0.4);
+    outline: none;
+}
+
+/* @media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+} */
